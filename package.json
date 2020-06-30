@@ -1,0 +1,17 @@
+{
+  "name": "eggsybot",
+  "version": "0.0.1",
+  "description": "Oui, c'est bien un bot discord se nommant Eggsy, car, c'est sur le theme des oeufs, et aussi, que c'est une référence a Kingsman, ce celebre film dans lequel apparait \"Eggsy\" le personnage principal",
+  "main": "index.js",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "discord.js": "^12.2.0",
+    "opusscript": "^0.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saymeur",
+  "license": "ISC"
+}
