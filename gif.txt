@@ -1,0 +1,67 @@
+/*client.on('message', async function analyse (msg){
+    if (msg.content === "Etheriouse") {
+        let embede = new Discord.MessageEmbed()
+        listederole = msg.guild.roles.cache
+    let roleacc = ""                      
+        for (role of listederole) {              
+            roleacc = roleacc + "<@&" + role[1] +">"     
+        }                              
+        embede.setTitle("**Etheriouse** la jalouse")
+        console.log(listederole)
+        embede.setColor("0xff00e3")
+        embede.setImage("https://media.discordapp.net/attachments/680884891268677655/714595551827460136/Jalouse.gif")
+        .addField(`**>Rôles:**`,`${roleacc},`)
+        msg.channel.send(embede)
+    }
+})
+
+        
+
+
+
+
+
+async function delay(ms) {return new Promise((resolve) => { setTimeout(resolve, ms) })}*/
+/*client.on('message', async function analyse (msg){
+    if (msg.content === "Etheriouse") {
+        let embede = new Discord.MessageEmbed()
+        embede.setTitle("**Etheriouse** la jalouse")
+        embede.setColor("0xff00e3")
+        embede.setImage("https://media.discordapp.net/attachments/680884891268677655/714595551827460136/Jalouse.gif")
+        msg.channel.send(embede)
+    }
+})
+
+client.on('message', async function analyse (msg){
+    if (msg.content === "Dévil Panik") {
+        let embede = new Discord.MessageEmbed()
+        embede.setTitle("Dévil panik quand il rage")
+        embede.setColor("#FF0000")
+        embede.setImage("https://media.discordapp.net/attachments/712947211159339066/714600758959669378/giphy.gif")
+        msg.channel.send(embede)
+    }
+})
+client.on('message', async function analyse (msg){
+    if (msg.content === "Trovel") {
+        let embede = new Discord.MessageEmbed()
+        embede.setTitle("'Une patate c'est bon comme ça peut faire mal' \n *Trovel, 26/05/2020* ")
+        embede.setColor("#FF8B00")
+        embede.setImage("https://media.discordapp.net/attachments/677864006274514945/714603817378775101/Trovel.gif")
+        msg.channel.send(embede)
+    }
+})
+client.on('message', async function analyse (msg){
+    if (msg.content === "Samer") {
+        if (msg.member.hasPermission(['BAN_MEMBERS'])){
+            let embede = new Discord.MessageEmbed()
+            embede.setTitle("Samer ?! boh pas besoin de Gif, ce mec est trop stylé")
+            embede.setColor("#0061FF")
+            embede.setImage("https://media.discordapp.net/attachments/677864006274514945/714603817378775101/Trovel.g")
+            msg.channel.send(embede)
+        }else msg.channel.send('Désolé, seulement le boss de la **CEC** peut mettre cette commande, ||TOZ||');
+        {
+        
+        }
+    }
+    
+})

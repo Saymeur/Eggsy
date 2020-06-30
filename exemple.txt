@@ -1,0 +1,47 @@
+/*client.on('message',async function analyse(msg) {
+    if (msg.content.includes("pute")){
+        msg.channel.send("Tu parles de moi la !!!???!");   
+    }
+}
+
+,)
+
+        message.react("🇧");
+        message.react("🇨");
+        message.react("🇩");
+        message.react("🇪");
+        message.react("🇫");
+        message.react("🇬");
+        message.react("🇭");
+        message.react("🇮");
+        message.react("🇯");
+        message.react("🇰");
+        message.react("🇱");
+        message.react("🇲");
+        message.react("🇳");
+        message.react("🇴");
+        message.react("🇵");
+        message.react("🇶");
+        message.react("🇷");
+        message.react("🇸");
+        message.react("🇹");
+    }
+})
+
+/*console.log(str.substr(1, 2));
+// expected output: "oz"
+
+console.log(str.substr(2));
+// expected output: "zilla"
+
+
+/*client.on('message', async function analyse (msg){
+    if(msg.channel.id == "719648431701753867"){
+    if(msg.author.id == "719651340594184244"){
+        msg.reply("ok")
+    }
+
+
+    }
+}
+)*/

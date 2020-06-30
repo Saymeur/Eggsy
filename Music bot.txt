@@ -1,0 +1,15 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.on("ready", () => {
+    const channel = client.channels.cache.get("678270505970696254z");
+    if (!channel) return console.error("The channel does not exist!");
+    channel.join().then(connection => {
+      // Yay, it worked!
+      console.log("Successfully connected.");
+    }).catch(e => {
+      // Oh no, it errored! Let's log it to console :)
+      console.error(e);
+    });
+  });
+  client.login("NzE0ODU5MTA3OTYxNjY3Njk1.Xs0zFg.l8JgDmQ0MGsbQkjITGTlcQ9xAYo")

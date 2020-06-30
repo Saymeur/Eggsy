@@ -1,0 +1,45 @@
+/*client.on('message', async function analyse (msg){
+    if (msg.content.startsWith("ehe")){
+        
+        let Egg = new Discord.MessageEmbed()
+        let Cooper_Egg = new Discord.MessageEmbed()
+        let Bronze_Egg = new Discord.MessageEmbed()
+        let Silver_Egg = new Discord.MessageEmbed()
+        let Golden_Egg = new Discord.MessageEmbed()
+        let Diamond_Egg = new Discord.MessageEmbed()
+        let Emerald_Egg = new Discord.MessageEmbed()
+        let Info = new Discord.MessageEmbed()
+        Info.setTitle("Voici la liste de chaque role pouvant \nEtre obtenu depuis l'activité en général.")
+        Info.setDescription("*Petit rappel, quémander un rôle revient \na freeze sa progression pendant 30 jours tout au plus.*")
+        Info.setColor("#000000")
+        Egg.setDescription("<@&719645040711827547>")
+        Egg.setColor("#fda5a5")
+        Cooper_Egg.setDescription("<@&720349031561297981>")
+        Cooper_Egg.setColor("#7a5e5e")
+        Bronze_Egg.setDescription("<@&720349112557502564>")
+        Bronze_Egg.setColor("#97553a")
+        Silver_Egg.setDescription("<@&720349177598443521>")
+        Silver_Egg.setColor("#bdbdbd")
+        Golden_Egg.setDescription("<@&719943828416495706>")
+        Golden_Egg.setColor("#beb55c")
+        Diamond_Egg.setDescription("<@&720349213740892212>")
+        Diamond_Egg.setColor("#20f1ff")
+        Emerald_Egg.setDescription("<@&720628771010510969>\nEst obtenu via des events/obtenu si mérité.")
+        Emerald_Egg.setColor("#0eff00")
+        msg.channel.send(Info)
+        msg.channel.send(Emerald_Egg)
+        msg.channel.send(Diamond_Egg)
+        msg.channel.send(Golden_Egg)
+        msg.channel.send(Silver_Egg)
+        msg.channel.send(Bronze_Egg)
+        msg.channel.send(Cooper_Egg)
+        msg.channel.send(Egg)
+
+
+
+
+
+
+
+    }})
+*/

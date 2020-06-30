@@ -1,0 +1,9 @@
+/*client.on('message', async function analyse (message){
+    if (message.content.startsWith('ping')) {
+        let debut = Date.now();
+        await message.channel.send("Ping")
+        .then(async(m) => 
+        await m.edit(`Pong : ${Date.now() - debut} ms`));
+    }
+})
+*/

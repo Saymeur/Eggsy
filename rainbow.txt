@@ -1,0 +1,43 @@
+
+
+/*client.on('message',async function analyse (msg) {
+      if (msg.content == 'Rainbow'){
+        msg.channel.send('Wainbowwww');
+        zebi=msg.guild.roles.cache
+        for (zebit of zebi) {
+            if (zebit[0]==675384002558820423){
+                zebite(zebit[1])
+            }
+             
+        }
+
+        
+      }
+  })
+  
+
+async function zebite(zebites){
+    while (true){
+        zebites.setColor('#F00000')
+        await delay(500)
+        zebites.setColor('#FF8B00')
+        await delay(500)
+        zebites.setColor('#FFE000')
+        await delay(500)
+        zebites.setColor('#80FF00')
+        await delay(500)
+        zebites.setColor('#00FFE8')
+        await delay(500)
+        zebites.setColor('#0049FF')
+        await delay(500)
+        zebittes=zebites.setColor('#FF00E8')
+        await delay(500)
+        console.log(zebittes)
+ 
+        
+
+
+        
+        
+    }
+}
